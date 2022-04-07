@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact me</title>
+    <style>
+        body{
+            background-image: url('background-image.png');
+        }
+        form{
+            position: relative;
+            margin: 250px;
+            margin-top: 190px;
+            font-size: large;
+            text-align: center;
+        
+
+        }
+       
+        .sendButton{
+            border-radius: 5px;
+            font-weight: 5000;
+            margin-left: 230px;
+            margin-right: 250px;
+            margin-top: 25px;
+            background-color: rgb(255, 34, 34);
+            color: aliceblue;
+            height: 30px;
+            width: 50px;
+            
+        }
+        #name{
+            width:600px;
+            height:30px ;
+        }
+        #email{
+            width:600px;
+            height:30px    
+        }
+        #msg{
+            width: 600px;
+            height: 130px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div>
+        <form>
+            <label for="name">Your Name </label> <br>
+            <input type="text" id="name" ><br><br>
+
+            <label for="email">Your Email </label> <br>
+            <input type="email" id="email" ><br><br>
+
+            <label for="msg">Your Message </label> <br>
+            <!--<input type="text" id="msge"  ><br><br>-->
+            <textarea id="msg" name="msg" ></textarea>
+
+            <div>
+                <input class="sendButton" type="button" id="send" value="Send">
+                
+             </div>
+           
+
+    </div>
+</body>
+</html>

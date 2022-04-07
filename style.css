@@ -1,0 +1,41 @@
+body{
+    background-image: url('background-image.png');
+}
+span{
+    position: relative;
+    top: 0px;
+    left: 165px;
+    height: 50px;
+    width: 150px;
+    padding-bottom: 500px;
+    margin: 40px;
+    
+}
+.table1,tr,td{
+    margin-top: 40px;
+    border: 1px solid peachpuff;
+    position: relative;
+    width: 100%;
+    padding-left: 200px;
+    padding-right: 200px;
+    text-align: center;
+    
+}
+
+span {
+    position: relative;
+  font-family: "Sofia", sans-serif;
+  padding-right: 200px;
+}
+.contactButton{
+    border-radius: 5px;
+    font-weight: 5000;
+    margin-left: 500px;
+    margin-right: 250px;
+    margin-top: 25px;
+    background-color: rgb(255, 34, 34);
+    color: aliceblue;
+    height: 30px;
+    width: 100px;}
+    
+
